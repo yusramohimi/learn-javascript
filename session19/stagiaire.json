@@ -1,0 +1,9 @@
+
+{
+    "user":{
+        "nom":"mohimi",
+        "prenom":"yousra",
+        "age":19,
+        "taks":["ajouter","modifier","supprimer"]
+}
+}   

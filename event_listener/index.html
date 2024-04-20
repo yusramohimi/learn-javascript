@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les écouteurs d'évènements</title>
+    <style>
+        div{
+            height: 100px;
+            width: 100px;
+            background-color: grey;
+        }
+        .spoiler{
+            background-color: black;
+            color: black;
+            cursor: pointer;
+        }
+        .spoiler::selection{
+            color: rgba(0, 0, 0, 0);
+        }
+        span{
+            transition: 0.5s ;
+        }
+    </style>
+</head>
+<body>
+    <h1>Les écouteurs d'évènements</h1>
+    <!-- <div>
+        <button>Bonjour</button>
+    </div>
+    <button>Bonjour les gens</button>
+    <a href="https://grafikart.fr">Grafikart</a> -->
+
+    <form action="">
+        <!-- <input type="text" name="firstname"> -->
+        <input type="checkbox">
+        <button>Envoyer</button>
+        <select name="firstname" id="">
+            <option value="1">option1</option>
+            <option value="2">option2</option>
+            <option value="3">option3</option>
+        </select>
+    </form>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel sequi commodi sit sint incidunt tempora voluptatibus esse voluptas dignissimos velit aut cum distinctio, qui repudiandae excepturi reprehenderit. <span class="spoiler">Dolorum, ducimus repellat!</span> Ipsum, voluptas expedita voluptate animi sed excepturi incidunt, commodi nam sunt voluptatum nihil quam mollitia amet optio? <span class="spoiler">Eveniet, deserunt adipisci tenetur consequuntur molestiae aliquam ratione recusandae earum perspiciatis praesentium dolor!</span> Quaerat consequatur a error ullam tempora dolorem ut, quam aliquam esse omnis velit necessitatibus dolor quod ducimus quasi provident reiciendis. Maiores quis doloremque dicta dolor porro at numquam soluta assumenda.</p>
+
+    <script src="script.js"></script>
+</body>
+</html>

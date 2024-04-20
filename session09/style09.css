@@ -1,0 +1,17 @@
+.container{
+    height: 100px;
+    width: 500px;
+    background-color: aqua;
+    margin: 20px;
+}
+
+.border{
+    border: 2px blue;
+    border-radius: 25px 75px;
+    box-shadow: 0 0 20px blue;
+
+}
+
+.encadrer{
+    border :2px solid red
+}
